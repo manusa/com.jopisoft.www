@@ -1,0 +1,40 @@
+@import '../../styles/partials/variables';
+
+.footer {
+  padding: $base-spacing;
+  background-color: $econo-color;
+  color: white;
+
+  .column-container {
+    display: flex;
+
+    .column {
+      margin-right: $base-spacing;
+      width: 480px;
+
+      h3 {
+        text-transform: lowercase;
+      }
+
+      .address {
+        p {
+          margin: 0;
+          font-size: $font-size-body-2;
+        }
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .switch {
+    display: block;
+    margin-top: $base-spacing;
+
+    label {
+      margin-left: $base-spacing;
+    }
+  }
+}

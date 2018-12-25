@@ -11,6 +11,7 @@ $font-size-body: 1rem;
 $font-size-body-2: 0.875 * $font-size-body;
 
 // Base
+$base-spacing: 16px;
 $base-background-color: #d9dadb;
 $base-color: #333333;
 $base-font-size: $font-size-body;
@@ -20,3 +21,4 @@ $base-font-family: 'Montserrat';
 
 // Overrides
 $mdc-theme-primary: $econo-color;
+$mdc-theme-secondary: #f9d957;
