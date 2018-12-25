@@ -1,0 +1,11 @@
+@import '../../styles/partials/variables';
+
+.top-bar {
+  .title {
+    font-family: 'Kanit';
+    text-transform: lowercase;
+    letter-spacing: 1px;
+    font-size: 1.7rem;
+    font-weight: 200;
+  }
+}
