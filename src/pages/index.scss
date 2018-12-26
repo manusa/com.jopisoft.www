@@ -1,0 +1,67 @@
+@import '../styles/partials/variables';
+
+$card-background-color: white;
+$card-content-title-color: #3E0D81;
+$card-type-color: white;
+$card-type-background-color: #573EEF;
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 960px;
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    width: 288px;
+    margin-bottom: $base-spacing;
+    background-color: $card-background-color;
+
+    .card-content {
+      flex: 1;
+      padding: $base-spacing;
+
+      h3 {
+        color: $card-content-title-color;
+        font-size: .85em;
+        text-transform: lowercase;
+        margin: 0 0 $base-spacing 0;
+      }
+      p {
+        font-size: .88em;
+      }
+    }
+
+    .card-type {
+      padding: .5em 1.05em;
+      color: $card-type-color;
+      background-color: $card-type-background-color;
+    }
+  }
+}
+
+.j-for-j-query {
+  display: flex;
+  justify-content: center;
+
+  text-align: center;
+  line-height: 178px;
+  height: 178px;
+  background-color: #1E3E89;
+  color: #DCE2F7;
+  font-family: 'econosans';
+  font-weight: 200;
+  font-style: italic;
+  font-size: 35px;
+
+  .j {
+    display: inline-block;
+    margin-right: 16px;
+    color: #01B0E1;
+    font-size: 80px;
+    font-weight: normal;
+    font-style: normal;
+
+  }
+}

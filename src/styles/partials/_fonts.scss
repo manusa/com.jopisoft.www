@@ -1,1 +1,26 @@
-@import url('https://fonts.googleapis.com/css?family=Kanit:200,400|Montserrat|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto');
+
+@font-face {
+  font-family: 'econosans';
+  src: url('./assets/econosans-medium.woff2') format('woff2'),
+  url('./assets/econosans-medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'econosans';
+  src: url('./assets/econosans-light.woff2') format('woff2'),
+  url('./assets/econosans-light.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'econosans';
+  src: url('./assets/econosans-200-italic.woff2') format('woff2'),
+  url('./assets/econosans-200-italic.woff') format('woff');
+  font-weight: 200;
+  font-style: italic;
+}
