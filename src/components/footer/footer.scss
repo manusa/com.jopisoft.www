@@ -37,4 +37,10 @@
       margin-left: $base-spacing;
     }
   }
+
+  .motto {
+    margin: 0 $base-spacing;
+    text-align: center;
+    font-size: $base-font-size * 0.66;
+  }
 }

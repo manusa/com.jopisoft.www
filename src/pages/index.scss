@@ -6,6 +6,7 @@ $card-type-color: white;
 $card-type-background-color: #573EEF;
 
 .card-container {
+  margin: $base-spacing auto;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -64,4 +65,17 @@ $card-type-background-color: #573EEF;
     font-style: normal;
 
   }
+}
+
+.share-price {
+  color: $card-content-title-color;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.share-price-banner {
+  display: block;
+  background: #1E3E89;
+  height: 100px;
+  padding: $base-spacing;
 }

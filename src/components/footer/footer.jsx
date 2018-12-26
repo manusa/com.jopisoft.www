@@ -21,6 +21,9 @@ const Footer = ({className}) => (
     <div>
       <Switch className={'switch'} />
     </div>
+    <div className={'motto'}>
+      JopiSoft - Where software development meets god
+    </div>
   </div>
 );
 
