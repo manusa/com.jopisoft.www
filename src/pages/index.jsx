@@ -51,7 +51,7 @@ const sharePriceBanner = (
 
 const Index = () => {
   const title = 'JopiSoft - Where software development meets god';
-  const language = navigator && navigator.language ? navigator.language : 'EN';
+  const language = typeof navigator !== 'undefined' ? navigator.language : 'EN';
   return (
     <MainLayout>
       <Helmet>
