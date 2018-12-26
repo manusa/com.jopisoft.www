@@ -51,6 +51,7 @@ const sharePriceBanner = (
 
 const Index = () => {
   const title = 'JopiSoft - Where software development meets god';
+  const language = navigator && navigator.language ? navigator.language : 'EN';
   return (
     <MainLayout>
       <Helmet>
@@ -67,9 +68,9 @@ const Index = () => {
           <div className={'share-price'}>
             13.37 &euro;
           </div>
-          <p>{new Date().toLocaleString(navigator.language,
+          <p>{new Date().toLocaleString(language,
             {year: 'numeric', month: '2-digit', day: '2-digit'})}&nbsp;
-            at {new Date().toLocaleString(navigator.language, {hour: '2-digit'})}
+            at {new Date().toLocaleString(language, {hour: '2-digit'})}
           </p>
           <p>
             Euronext
