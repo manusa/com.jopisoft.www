@@ -8,4 +8,28 @@
     font-size: 1.75rem;
     font-weight: 200;
   }
+
+  @media screen and (max-width: 520px) {
+    ul.expanded-menu {
+      display: none;
+    }
+  }
+
+  ul.expanded-menu {
+    font-size: $font-size-body-2;
+    font-weight: 700;
+
+    li {
+      list-style: none;
+      display: inline-block;
+      padding: 0.5em;
+      opacity: 0.5;
+      transition: opacity .3s;
+      cursor: pointer;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
 }
