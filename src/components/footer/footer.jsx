@@ -1,7 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './footer.scss';
 import Switch from './switch';
+import Menu from '../menu/menu';
+import './footer.scss';
 
 const Footer = ({className}) => (
   <div className={`${className} footer`}>
@@ -9,13 +10,18 @@ const Footer = ({className}) => (
       <div className={'column'}>
         <h3>Contact</h3>
         <div className={'address'}>
-          <p>1640 Riverside Drive</p>
-          <p>Hill Valley, California (CA 91905)</p>
-          <p>USA</p>
+          <p>USA Headquarters</p>
+          <p>
+            1640 Riverside Drive<br/>
+            Hill Valley, California (CA 91905)<br/>
+            USA
+          </p>
+          <p>+1 555-6162</p>
         </div>
       </div>
       <div className={'column'}>
         <h3>Quick Access</h3>
+        <Menu className={'quick-access'}/>
       </div>
     </div>
     <div>
