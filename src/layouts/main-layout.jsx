@@ -10,7 +10,7 @@ class MainLayout extends React.Component {
     super(props);
     this.state = {
       menu: {
-        open: true
+        open: false
       }
     };
     this.handleToggleMenu = this.toggleMenu.bind(this);
