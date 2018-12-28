@@ -1,12 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'gatsby';
 
 const Menu = ({className}) => (
   <ul className={className}>
-    <li>team</li>
+    <li><Link to='/team/'>team</Link></li>
     <li>solutions</li>
     <li>careers</li>
-    <li>blogs</li>
+    <li>jopicloud</li>
   </ul>
 );
 

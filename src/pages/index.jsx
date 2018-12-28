@@ -3,6 +3,7 @@ import {Helmet} from 'react-helmet';
 import MainLayout from '../layouts/main-layout';
 import './index.scss';
 
+export const MAIN_TITLE = 'JopiSoft - Where software development meets god';
 const Card = ({children, banner, type}) => (
   <div className={'card'}>
     <div className={'card-content'}>
@@ -50,7 +51,7 @@ const sharePriceBanner = (
 );
 
 const Index = () => {
-  const title = 'JopiSoft - Where software development meets god';
+  const title = MAIN_TITLE;
   const language = typeof navigator !== 'undefined' ? navigator.language : 'EN';
   return (
     <MainLayout>

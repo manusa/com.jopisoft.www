@@ -20,7 +20,7 @@ class MainLayout extends React.Component {
     return (
       <div className={'main-layout'}>
         <TopBar onMenuClick={this.handleToggleMenu} />
-        {this.state.menu.open && <DrawerMenu onScrimClick={this.handleToggleMenu}/>}
+        <DrawerMenu visible={this.state.menu.open} onScrimClick={this.handleToggleMenu}/>
         <div className={'mdc-top-app-bar--fixed-adjust content'}>
           {this.props.children}
         </div>
