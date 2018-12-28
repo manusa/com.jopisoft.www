@@ -10,6 +10,7 @@ const JopiCloud = () => (
       <title>{MAIN_TITLE}</title>
     </Helmet>
     <div className={'sky'}>
+      <div className={'title'}>| jopicloud |</div>
       <div className={'cloud first'}></div>
       <div className={'cloud second'}></div>
       <div className={'cloud third'}></div>
