@@ -2,21 +2,33 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
 
-const Menu = ({className}) => (
+const Menu = ({className, itemClassName, linkClassName}) => (
   <ul className={className}>
-    <li><Link to='/team/'>team</Link></li>
-    <li>solutions</li>
-    <li>careers</li>
-    <li><Link to='/jopicloud/'>jopicloud</Link></li>
+    <li className={itemClassName}>
+      <Link className={linkClassName} to='/team/'>team</Link>
+    </li>
+    <li className={itemClassName}>
+      <Link className={linkClassName} to='/solutions/'>solutions</Link>
+    </li>
+    <li className={itemClassName}>
+      <Link className={linkClassName} to='/careers/'>careers</Link>
+    </li>
+    <li className={itemClassName}>
+      <Link className={linkClassName} to='/jopicloud/'>jopicloud</Link>
+    </li>
   </ul>
 );
 
 Menu.propTypes = {
-  className: PropTypes.string
+  className: PropTypes.string,
+  itemClassName: PropTypes.string,
+  linkClassName: PropTypes.string
 };
 
 Menu.defaultProps = {
-  className: ''
+  className: '',
+  itemClassName: '',
+  linkClassName: ''
 };
 
 export default Menu;

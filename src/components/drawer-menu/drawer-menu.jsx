@@ -6,7 +6,9 @@ const DrawerMenu = ({visible, onScrimClick}) => (
   <Fragment>
     <aside className={`mdc-drawer mdc-drawer--modal ${visible && 'mdc-drawer--open'}`}>
       <div className='mdc-drawer__content'>
-        <Menu className={'menu'}/>
+        <nav className={'mdc-list'}>
+          <Menu className={'menu'} linkClassName={'mdc-list-item'}/>
+        </nav>
       </div>
     </aside>
     <div className='mdc-drawer-scrim' onClick={onScrimClick}></div>

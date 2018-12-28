@@ -8,6 +8,11 @@
 
   .mdc-drawer {
     @include mdc-rtl-reflexive-position(right, 0);
+
+    ul {
+      margin: 0;
+      padding: 0;
+    }
   }
 
   .content {
