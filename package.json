@@ -40,6 +40,7 @@
     "react-helmet": "^5.2.0"
   },
   "devDependencies": {
+    "@material/drawer": "^0.42.0",
     "@material/switch": "^0.42.0",
     "@material/top-app-bar": "^0.42.0",
     "eslint": "^5.11.0",

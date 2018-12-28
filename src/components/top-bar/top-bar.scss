@@ -9,11 +9,19 @@
     font-weight: 200;
   }
 
-  @media screen and (max-width: 520px) {
+  button.menu {
+    display: none;
+  }
+
+  @media screen and (max-width: 480px) {
+    button.menu {
+      display: initial;
+    }
     ul.expanded-menu {
       display: none;
     }
   }
+
 
   ul.expanded-menu {
     font-size: $font-size-body-2;

@@ -1,9 +1,14 @@
+@import "@material/rtl/mixins";
 
 .main-layout {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   height: 1px;
+
+  .mdc-drawer {
+    @include mdc-rtl-reflexive-position(right, 0);
+  }
 
   .content {
     flex: 1;
