@@ -7,7 +7,7 @@ const Menu = ({className}) => (
     <li><Link to='/team/'>team</Link></li>
     <li>solutions</li>
     <li>careers</li>
-    <li>jopicloud</li>
+    <li><Link to='/jopicloud/'>jopicloud</Link></li>
   </ul>
 );
 

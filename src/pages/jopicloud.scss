@@ -1,0 +1,85 @@
+
+$skyColor: #c9dbe9;
+$cloudMoveDuration: 20s;
+
+div.sky {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left:0;
+  right:0;
+  background: $skyColor;
+  background: linear-gradient(to bottom, $skyColor 20%, #fff 100%);
+
+  .cloud {
+    position: relative;
+    width: 200px; height: 60px;
+    background: #fff;
+    border-radius: 200px;
+
+    &::before,
+    &::after {
+      content: '';
+      position: absolute;
+      background: #fff;
+      width: 100px;
+      height: 80px;
+      position: absolute; top: -15px; left: 10px;
+
+      border-radius: 100px;
+      transform: rotate(30deg);
+    }
+
+    &::after {
+      width: 120px;
+      height: 120px;
+      top: -55px;
+      left: auto;
+      right: 15px;
+    }
+
+    &.first {
+      left: -800px;
+      top: 100px;
+      animation: cloudMove $cloudMoveDuration * 0.5 linear infinite;
+    }
+
+    &.second {
+      top: 120px;
+      animation: cloudMove $cloudMoveDuration linear infinite;
+
+      transform: scale(0.8);
+      opacity: 0.8;
+    }
+
+    &.third {
+      top: 110px;
+      animation: cloudMove $cloudMoveDuration * 0.8 linear infinite;
+
+      transform: scale(0.9);
+      opacity: 0.9;
+    }
+
+    &.fourth {
+      top: 145px;
+      animation: cloudMove $cloudMoveDuration * 0.5 linear infinite;
+
+      transform: scale(1.1);
+    }
+
+    &.fifth {
+      top: 80px;
+      animation: cloudMove $cloudMoveDuration * 1.2 linear infinite;
+
+      transform: scale(0.5);
+      opacity: 0.6;
+    }
+
+    @keyframes cloudMove {
+      0% {margin-left: 1900px;}
+      100% {margin-left: -200px;}
+    }
+  }
+
+}
