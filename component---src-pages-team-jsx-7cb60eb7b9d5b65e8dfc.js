@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{140:function(e,n,t){"use strict";t.r(n);var l=t(0),a=t.n(l),u=t(143),c=t(137),r=t(145);n.default=function(){return a.a.createElement(r.a,null,a.a.createElement(u.Helmet,null,a.a.createElement("title",null,c.MAIN_TITLE)))}}}]);
+//# sourceMappingURL=component---src-pages-team-jsx-7cb60eb7b9d5b65e8dfc.js.map
