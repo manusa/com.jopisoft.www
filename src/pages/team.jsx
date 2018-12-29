@@ -2,6 +2,7 @@ import React from 'react';
 import {Helmet} from 'react-helmet';
 import {MAIN_TITLE} from './index';
 import MainLayout from '../layouts/main-layout';
+import JopiCloud from './jopicloud';
 
 const Team = () => (
   <MainLayout>
@@ -11,4 +12,4 @@ const Team = () => (
   </MainLayout>
 );
 
-export default Team;
+export default JopiCloud;
