@@ -2,7 +2,10 @@
   "name": "jopisoft",
   "version": "1.0.0",
   "description": "JopiSoft - Where software development meets god",
-  "main": "index.jsx",
+  "bin": {
+    "mn-presentations": "index.js"
+  },
+  "main": "index.js",
   "scripts": {
     "build": "rm -rf ./public && gatsby build",
     "dev": "gatsby develop",
@@ -10,6 +13,9 @@
     "start": "npm run develop",
     "test": "jest"
   },
+  "files": [
+    "public"
+  ],
   "keywords": [],
   "author": {
     "name": "Marc Nuri",
