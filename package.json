@@ -1,6 +1,6 @@
 {
   "name": "jopisoft",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JopiSoft - Where software development meets god",
   "bin": {
     "mn-presentations": "index.js"
