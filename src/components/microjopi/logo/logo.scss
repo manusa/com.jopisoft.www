@@ -1,0 +1,34 @@
+
+.logo.squares {
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+
+  .square {
+    position: absolute;
+    width: 47%;
+    height: 47%;
+  }
+
+  .square1 {
+    top: 0px;
+    left: 0px;
+    background-color: #f35325;
+  }
+  .square2 {
+    top: 0px;
+    right: 0px;
+    background-color: #81bc06;
+  }
+  .square3 {
+    bottom: 0px;
+    left: 0px;
+    background-color: #05a6f0;
+  }
+  .square4 {
+    bottom: 0px;
+    right: 0px;
+    background-color: #ffba08;
+  }
+}

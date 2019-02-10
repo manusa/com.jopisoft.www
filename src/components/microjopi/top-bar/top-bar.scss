@@ -1,0 +1,18 @@
+@import '../../../styles/partials/variables';
+
+.microjopi.top-bar {
+  .title {
+    display: flex;
+    align-items: center;
+    color: #6c6c6c;
+    font-family: 'Open sans';
+    text-decoration: none;
+    letter-spacing: -1px;
+    font-size: 20px;
+    font-weight: 700;
+
+    .logo {
+      margin-right: 8px;
+    }
+  }
+}

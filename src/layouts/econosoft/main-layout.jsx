@@ -1,9 +1,9 @@
 import React from 'react';
-import TopBar from '../components/top-bar/top-bar';
-import DrawerMenu from '../components/drawer-menu/drawer-menu';
-import Footer from '../components/footer/footer';
+import TopBar from '../../components/econosoft/top-bar/top-bar';
+import DrawerMenu from '../../components/econosoft/drawer-menu/drawer-menu';
+import Footer from '../../components/econosoft/footer/footer';
 import './main-layout.scss';
-import '../styles/main.scss';
+import '../../styles/main.scss';
 
 class MainLayout extends React.Component {
   constructor(props) {
@@ -18,7 +18,7 @@ class MainLayout extends React.Component {
 
   render() {
     return (
-      <div className={'main-layout'}>
+      <div className={'econosoft main-layout'}>
         <TopBar onMenuClick={this.handleToggleMenu} />
         <DrawerMenu visible={this.state.menu.open} onScrimClick={this.handleToggleMenu}/>
         <div className={'mdc-top-app-bar--fixed-adjust content'}>

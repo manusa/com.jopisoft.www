@@ -1,20 +1,20 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Link } from 'gatsby';
+import {Link} from 'gatsby';
 
 const Menu = ({className, itemClassName, linkClassName}) => (
   <ul className={className}>
     <li className={itemClassName}>
-      <Link className={linkClassName} to='/team/'>team</Link>
+      <Link className={linkClassName} to='/econosoft/team/'>team</Link>
     </li>
     <li className={itemClassName}>
-      <Link className={linkClassName} to='/solutions/'>solutions</Link>
+      <Link className={linkClassName} to='/econosoft/solutions/'>solutions</Link>
     </li>
     <li className={itemClassName}>
-      <Link className={linkClassName} to='/careers/'>careers</Link>
+      <Link className={linkClassName} to='/econosoft/careers/'>careers</Link>
     </li>
     <li className={itemClassName}>
-      <Link className={linkClassName} to='/jopicloud/'>jopicloud</Link>
+      <Link className={linkClassName} to='/econosoft/jopicloud/'>jopicloud</Link>
     </li>
   </ul>
 );

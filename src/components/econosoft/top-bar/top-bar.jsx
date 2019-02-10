@@ -5,10 +5,10 @@ import Menu from '../menu/menu';
 import './top-bar.scss';
 
 const TopBar = ({onMenuClick}) => (
-  <header className={'mdc-top-app-bar top-bar'}>
+  <header className={'mdc-top-app-bar econosoft top-bar'}>
     <div className={'mdc-top-app-bar__row'}>
       <section className={'mdc-top-app-bar__section mdc-top-app-bar__section--align-start'}>
-        <Link to='/' className={'mdc-top-app-bar__title title'}>JopiSoft</Link>
+        <Link to='/econosoft' className={'mdc-top-app-bar__title title'}>JopiSoft</Link>
       </section>
       <section className={'mdc-top-app-bar__section mdc-top-app-bar__section--align-end'}>
         <Menu className={'expanded-menu'}/>
