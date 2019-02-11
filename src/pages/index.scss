@@ -1,3 +1,4 @@
+@import '../styles/partials/variables';
 
 .microjopi.main-layout {
   .content {
@@ -16,7 +17,35 @@
 
       .logo {
         margin-right: 25px;
+
+        .square1 {
+          animation: red 4s linear infinite;
+        }
+        .square2 {
+          animation: green 4s linear infinite 1s;
+        }
+        .square4 {
+          animation: yellow 4s linear infinite 2s;
+        }
+        .square3 {
+          animation: blue 4s linear infinite 3s;
+        }
       }
     }
   }
 }
+
+@mixin colorAnimation($name, $color) {
+  @keyframes #{$name} {
+    25% {background-color: $color}
+    75% {background-color: darken($color, 20%)}
+    100% {background-color: $color}
+  }
+}
+
+@include colorAnimation(red, $microjopi-logo-red)
+@include colorAnimation(green, $microjopi-logo-green)
+@include colorAnimation(blue, $microjopi-logo-blue)
+@include colorAnimation(yellow, $microjopi-logo-yellow)
+
+

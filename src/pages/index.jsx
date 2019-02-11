@@ -4,7 +4,7 @@ import MainLayout from '../layouts/microjopi/main-layout';
 import './index.scss';
 import Logo from '../components/microjopi/logo/logo';
 
-export const MAIN_TITLE = 'JopiSoft - Where software development meets god';
+export const MAIN_TITLE = 'Jopisoft - Where software development meets god';
 
 const Index = () => (
   <MainLayout>
