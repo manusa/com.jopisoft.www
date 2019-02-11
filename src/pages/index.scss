@@ -19,16 +19,16 @@
         margin-right: 25px;
 
         .square1 {
-          animation: red 4s linear infinite;
+          animation: redAnimation 4s linear infinite;
         }
         .square2 {
-          animation: green 4s linear infinite 1s;
+          animation: greenAnimation 4s linear infinite 1s;
         }
         .square4 {
-          animation: yellow 4s linear infinite 2s;
+          animation: yellowAnimation 4s linear infinite 2s;
         }
         .square3 {
-          animation: blue 4s linear infinite 3s;
+          animation: blueAnimation 4s linear infinite 3s;
         }
       }
     }
@@ -43,9 +43,9 @@
   }
 }
 
-@include colorAnimation(red, $microjopi-logo-red)
-@include colorAnimation(green, $microjopi-logo-green)
-@include colorAnimation(blue, $microjopi-logo-blue)
-@include colorAnimation(yellow, $microjopi-logo-yellow)
+@include colorAnimation(redAnimation, $microjopi-logo-red)
+@include colorAnimation(greenAnimation, $microjopi-logo-green)
+@include colorAnimation(blueAnimation, $microjopi-logo-blue)
+@include colorAnimation(yellowAnimation, $microjopi-logo-yellow)
 
 
