@@ -5,7 +5,7 @@ import Menu from '../menu/menu';
 import './footer.scss';
 
 const Footer = ({className}) => (
-  <div className={`${className} footer`}>
+  <div className={`${className} econosoft footer`}>
     <div className={'column-container'}>
       <div className={'column'}>
         <h3>Contact</h3>

@@ -1,0 +1,16 @@
+@import '../../../styles/partials/variables';
+
+$color: #616161;
+$background-color: #f2f2f2;
+
+.microjopi.footer {
+  padding: $base-spacing;
+  background-color: $background-color;
+  color: $color;
+
+  .motto {
+    margin: 0 $base-spacing;
+    text-align: center;
+    font-size: $base-font-size * 0.66;
+  }
+}

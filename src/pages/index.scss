@@ -1,0 +1,22 @@
+
+.microjopi.main-layout {
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+
+    .banner {
+      display: flex;
+      align-items: center;
+      color: #6c6c6c;
+      font-family: 'Open sans';
+      font-size: 90px;
+      font-weight: 700;
+
+      .logo {
+        margin-right: 25px;
+      }
+    }
+  }
+}

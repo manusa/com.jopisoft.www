@@ -1,6 +1,15 @@
 
 .microjopi.main-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  height: 1px;
+
   .mdc-top-app-bar {
     background: white;
+  }
+  .content {
+    position: relative;
+    flex: 1;
   }
 }
