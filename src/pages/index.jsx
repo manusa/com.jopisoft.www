@@ -20,8 +20,9 @@ const Index = () => (
       <meta name='twitter:description' content={DESCRIPTION} />
       <meta property='og:description' content={DESCRIPTION} />
       <meta name='description' content={DESCRIPTION} />
-      <meta property='og:type' content='website' />
       <meta name='twitter:site' content='@MarcNuri'/>
+      <meta property='og:type' content='website' />
+      <meta name='twitter:card' content='summary' />
     </Helmet>
     <div className={'banner'}>
       <Logo size={100}/> Jopisoft
