@@ -1,3 +1,4 @@
+@import '../../../styles/partials/variables';
 
 .logo.squares {
   position: relative;
@@ -14,21 +15,21 @@
   .square1 {
     top: 0px;
     left: 0px;
-    background-color: #f35325;
+    background-color: $microjopi-logo-red;
   }
   .square2 {
     top: 0px;
     right: 0px;
-    background-color: #81bc06;
+    background-color: $microjopi-logo-green;
   }
   .square3 {
     bottom: 0px;
     left: 0px;
-    background-color: #05a6f0;
+    background-color: $microjopi-logo-blue;
   }
   .square4 {
     bottom: 0px;
     right: 0px;
-    background-color: #ffba08;
+    background-color: $microjopi-logo-yellow;
   }
 }

@@ -4,7 +4,7 @@ import MainLayout from '../layouts/microjopi/main-layout';
 import './index.scss';
 import Logo from '../components/microjopi/logo/logo';
 
-export const TITLE = 'JopiSoft';
+export const TITLE = 'Jopisoft';
 export const DESCRIPTION = 'Where software development meets god';
 export const MAIN_TITLE = `${TITLE} - ${DESCRIPTION}`;
 export const MAIN_URL = 'https://www.jopisoft.com';
